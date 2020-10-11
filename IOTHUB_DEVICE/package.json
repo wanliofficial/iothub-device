@@ -1,0 +1,26 @@
+{
+    "name": "iothub-device",
+    "version": "0.0.1",
+    "description": "iothub device.",
+    "author": "Wanli Inc",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "button-gpio": "^2.0.9",
+            "promise": "^0.1.2",
+            "mqtt": "^0.1.3"
+        },
+        "version": 1
+    },
+    "authenticate": {
+        "productName": "abc",
+        "deviceName": "9L8b5l4QS",
+        "secret": "KkEq5EkQ3f",
+        "clientID": "abc-9L8b5l4QS"
+    },
+    "server": {
+        "host": "wanliwuhan.com",
+        "port": 1883
+    },
+    "firmwareVersion": "0.0.2"
+}
